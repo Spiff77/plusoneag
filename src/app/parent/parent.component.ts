@@ -5,16 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './parent.component.html',
   styleUrls: ['./parent.component.css']
 })
-export class ParentComponent implements OnInit {
+export class ParentComponent {
   total = 0;
 
   constructor() { }
 
-  ngOnInit() {
-  }
-
   modifyParent(value: number) {
-    console.log(value);
     this.total += value;
   }
 
