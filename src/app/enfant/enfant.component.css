@@ -1,0 +1,25 @@
+:host{
+  background-color: black;
+  color:white;
+  width:100px;
+  height:100px;
+  cursor:pointer;
+  font-family: Courier;
+  display:inline-block;
+  line-height:3.1em;
+}
+div{
+  background-color: black;
+}
+div > div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+  color: white;
+  background-color: #777;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+
+}
